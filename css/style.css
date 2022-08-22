@@ -65,7 +65,8 @@ color: black;
     background-color: blue;
     border: 1px solid black;
     text-decoration: none;
-    display: block;
+    display: block; /*stavljen display block jer ne moze drugacije da se podesavaju 
+    margine na button*/
     margin-bottom: 20px;
     margin-left: 0px;
 
@@ -134,6 +135,7 @@ color: grey;
     -moz-box-shadow: 0px 4px 24px 4px rgba(0,0,0,0.75);
     box-shadow: 0px 4px 24px 4px rgba(0,0,0,0.75);
     transition: 0.5s;
+    /* Box shadow generator*/
 }
 
 .tabs .info-section:hover{
