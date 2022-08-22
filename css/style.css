@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+             
+}
+
+
+.pre-header {
+    background-color: black;
+    padding:10px;
+}
+.pre-header p {
+    color: grey;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.pre-header .lista1 li  {
+ 
+    list-style: none;
+    text-align: right;
+}
+ .lista1 li a {
+    color: grey;
+    text-decoration: none;
+ }
+
+ .lista1 li a:hover{
+    color: aliceblue;
+    transition: 0.3s;
+ }
+
+.header  p   {
+    font-size: large;
+    padding-top: 15px;
+    }
+.header  p span  {
+font-size: 20px;
+text-decoration:underline;
+text-decoration-style: double;
+padding-top: 15px;
+color: black;
+
+
+}
+.header .glavni-meni li  {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: large;
+    margin-top: 20px;
+
+}
+.glavni-meni li a {
+    text-decoration: none;
+    color: black;
+}
+
+.glavni-meni li a:hover{
+    color: red;
+    transition: 0.4s;
+}
+.header .glavni-meni .btn a {
+    color: aliceblue;
+    padding: 5px;
+    background-color: blue;
+    border: 1px solid black;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 0px;
+
+ }
+  .glavni-meni .btn a:hover{
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+    text-decoration: none;
+    border: 1px solid black;
+
+ }
+.main-section {
+    background-image: url(../slike/slika2.jpg);
+    background-size: cover;
+    height: 84vh;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.main-section h1  {
+    margin-top: 45%;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    
+}
+
+.main-section p {
+    color: black;
+    font-size: 20px;
+
+}
+.section-two {
+    text-align: center;
+     margin-top: 50px;   
+}
+.section-two h1{
+text-transform: uppercase;
+font-size: 50px;
+color: grey;
+}
+.section-two p{
+font-size: 20px;
+color: grey;
+}
+.tabs {
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+.tabs .info-section{
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    -webkit-box-shadow: 0px 4px 24px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 24px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 24px 4px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
+
+.tabs .info-section:hover{
+    background-color:#a80fdb;
+    margin-top: 70px;
+    -webkit-box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px -7px 28px -3px rgba(0,0,0,0.75);
+    
+}
+.tabs .info-section h2{
+    padding-bottom: 50px;
+
+}
+.tabs .info-section p {
+    padding-bottom: 100px;
+}
+.tabs .info-section a {
+    color: aliceblue;
+    padding: 15px;
+    background-color: blue;
+    border: 1px solid blue;
+    text-decoration: none;
+    transition: 0.5s;
+    
+    
+}
+.tabs .info-section a:hover {
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+
+}
