@@ -107,7 +107,8 @@ color: black;
 }
 .section-two {
     text-align: center;
-     margin-top: 50px;   
+     margin-top: 30px;  
+     height: 30vh; 
 }
 .section-two h1{
 text-transform: uppercase;
@@ -120,8 +121,8 @@ color: grey;
 }
 .tabs {
     text-align: center;
-    margin-bottom: 100px;
-    height: 100vh;
+    margin-bottom: 90px;
+    height: 50vh;
     
 }
 
@@ -131,7 +132,7 @@ color: grey;
     padding-bottom: 50px;
     background-color: black;
     color: white;
-    margin-top: 100px;
+    margin-top: 80px;
     -webkit-box-shadow: 0px 4px 24px 4px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 4px 24px 4px rgba(0,0,0,0.75);
     box-shadow: 0px 4px 24px 4px rgba(0,0,0,0.75);
@@ -179,17 +180,21 @@ color: grey;
     background-size: cover;
     height: 100vh;
     background-position: center;
-    margin-top: 200px;
+    margin-top: 300px;
     transition: 0.5s;
 }
 
-.footer-section .ftr-text #ftr-p{
+ .footer-section .ftr-text #ftr-p{
     width: 200px;
     height: 200px;
     position: relative;
     animation-name: example;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    border-left: 6px groove lightcyan;
+    height: 350px;
+    padding-left: 50px;
+    
   }
   
   @keyframes example {
@@ -199,7 +204,7 @@ color: grey;
         margin-left: -500px;
     }
     to {
-        margin-left: 0%;
+        margin-left: -80%;
     }
 
      
@@ -208,5 +213,5 @@ color: grey;
     margin-top: 30%;
     text-transform: uppercase;
     font-size: 15px;
-    text-align: right;
+    
 }
