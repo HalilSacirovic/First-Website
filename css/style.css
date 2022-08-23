@@ -121,6 +121,7 @@ color: grey;
 .tabs {
     text-align: center;
     margin-bottom: 100px;
+    height: 100vh;
     
 }
 
@@ -172,4 +173,40 @@ color: grey;
     color: black;
     text-decoration: none;
 
+}
+.footer-section {
+    background-image: url(../slike/slika3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    margin-top: 200px;
+    transition: 0.5s;
+}
+
+.footer-section .ftr-text #ftr-p{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes example {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    100%  {background-color:transparent; left:100%; top:0px;}
+    from {
+        margin-left: -500px;
+    }
+    to {
+        margin-left: 0%;
+    }
+
+     
+  }
+.footer-section .ftr-text #ftr-p {
+    margin-top: 30%;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: right;
 }
