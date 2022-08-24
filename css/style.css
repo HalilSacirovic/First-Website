@@ -35,8 +35,6 @@
     }
 .header  p span  {
 font-size: 20px;
-text-decoration:underline;
-text-decoration-style: double;
 padding-top: 15px;
 color: black;
 
@@ -137,6 +135,8 @@ color: grey;
     box-shadow: 0px 4px 24px 4px rgba(0,0,0,0.75);
     transition: 0.5s;
     /* Box shadow generator*/
+    border-radius: 10px;
+    border-bottom-right-radius: 50px;
 }
 
 .tabs .info-section:hover{
@@ -161,6 +161,7 @@ color: grey;
     border: 1px solid blue;
     text-decoration: none;
     transition: 0.5s;
+    border-radius: 10px;
     
     
 }
@@ -172,6 +173,7 @@ color: grey;
     background-color: white;
     color: black;
     text-decoration: none;
+    border-radius: 10px;
 
 }
 .footer-section {
